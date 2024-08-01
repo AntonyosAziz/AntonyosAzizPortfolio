@@ -1,0 +1,684 @@
+.frame {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    position: relative; /* Ändere die Position auf relative */
+    z-index: -1;
+}
+
+.frame .curve-text {
+    position: relative;
+    width: 376px;
+    height: 300px;
+}
+
+.frame .overlap {
+    position: absolute;
+    width: 150px;
+    height: 299px;
+    top: -1px;
+    left: 149px;
+}
+
+.frame .text-wrapper {
+    position: absolute;
+    width: 23px;
+    height: 37px;
+    top: 1px;
+    left: 2px;
+    transform: rotate(5.91deg);
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame .overlap-group {
+    position: absolute;
+    width: 127px;
+    height: 292px;
+    top: 4px;
+    left: 22px;
+}
+
+.frame .div {
+    position: absolute;
+    width: 20px;
+    height: 37px;
+    top: 2px;
+    left: 6px;
+    transform: rotate(17.04deg);
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame .text-wrapper-2 {
+    position: absolute;
+    width: 13px;
+    height: 37px;
+    top: 9px;
+    left: 28px;
+    transform: rotate(25.57deg);
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame .overlap-group-2 {
+    position: absolute;
+    width: 107px;
+    height: 267px;
+    top: 16px;
+    left: 21px;
+}
+
+.frame .text-wrapper-3 {
+    position: absolute;
+    width: 22px;
+    height: 37px;
+    top: 3px;
+    left: 20px;
+    transform: rotate(34.41deg);
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame .text-wrapper-4 {
+    position: absolute;
+    width: 9px;
+    height: 37px;
+    top: 14px;
+    left: 41px;
+    transform: rotate(42.13deg);
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame .text-wrapper-5 {
+    top: 21px;
+    left: 48px;
+    transform: rotate(46.51deg);
+    position: absolute;
+    width: 9px;
+    height: 37px;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame .text-wrapper-6 {
+    position: absolute;
+    width: 10px;
+    height: 37px;
+    top: 29px;
+    left: 55px;
+    transform: rotate(51.3deg);
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame .text-wrapper-7 {
+    position: absolute;
+    width: 23px;
+    height: 37px;
+    top: 45px;
+    left: 59px;
+    transform: rotate(59.83deg);
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame .text-wrapper-8 {
+    top: 63px;
+    left: 74px;
+    transform: rotate(68.43deg);
+    position: absolute;
+    width: 10px;
+    height: 37px;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame .text-wrapper-9 {
+    position: absolute;
+    width: 21px;
+    height: 37px;
+    top: 81px;
+    left: 74px;
+    transform: rotate(76.53deg);
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame .text-wrapper-10 {
+    width: 14px;
+    top: 101px;
+    left: 81px;
+    transform: rotate(85.39deg);
+    position: absolute;
+    height: 37px;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame .text-wrapper-11 {
+    top: 114px;
+    left: 84px;
+    transform: rotate(91.06deg);
+    position: absolute;
+    width: 9px;
+    height: 37px;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame .text-wrapper-12 {
+    top: 131px;
+    left: 76px;
+    transform: rotate(98.65deg);
+    position: absolute;
+    width: 21px;
+    height: 37px;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame .text-wrapper-13 {
+    position: absolute;
+    width: 23px;
+    height: 37px;
+    top: 156px;
+    left: 69px;
+    transform: rotate(109.91deg);
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame .text-wrapper-14 {
+    top: 179px;
+    left: 59px;
+    transform: rotate(121.14deg);
+    position: absolute;
+    width: 21px;
+    height: 37px;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame .text-wrapper-15 {
+    top: 194px;
+    left: 54px;
+    transform: rotate(129.14deg);
+    position: absolute;
+    width: 10px;
+    height: 37px;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame .text-wrapper-16 {
+    top: 208px;
+    left: 36px;
+    transform: rotate(137.11deg);
+    position: absolute;
+    width: 21px;
+    height: 37px;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame .text-wrapper-17 {
+    position: absolute;
+    width: 9px;
+    height: 37px;
+    top: 219px;
+    left: 29px;
+    transform: rotate(144.7deg);
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame .text-wrapper-18 {
+    position: absolute;
+    width: 21px;
+    height: 37px;
+    top: 228px;
+    left: 7px;
+    transform: rotate(152.33deg);
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame .text-wrapper-19 {
+    top: 254px;
+    left: 5px;
+    transform: rotate(163.23deg);
+    position: absolute;
+    width: 21px;
+    height: 37px;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame .text-wrapper-20 {
+    top: 262px;
+    left: 15px;
+    transform: rotate(171.29deg);
+    position: absolute;
+    width: 10px;
+    height: 37px;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame .text-wrapper-21 {
+    position: absolute;
+    width: 30px;
+    height: 37px;
+    top: 262px;
+    left: 131px;
+    transform: rotate(-178.59deg);
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame .overlap-2 {
+    position: absolute;
+    width: 132px;
+    height: 291px;
+    top: 5px;
+    left: -1px;
+}
+
+.frame .text-wrapper-22 {
+    position: absolute;
+    width: 21px;
+    height: 37px;
+    top: 253px;
+    left: 107px;
+    transform: rotate(-165.82deg);
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame .overlap-3 {
+    position: absolute;
+    width: 112px;
+    height: 278px;
+    top: 6px;
+    left: 0;
+}
+
+.frame .text-wrapper-23 {
+    position: absolute;
+    width: 22px;
+    height: 37px;
+    top: 239px;
+    left: 84px;
+    transform: rotate(-155.03deg);
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame .overlap-4 {
+    position: absolute;
+    width: 99px;
+    height: 260px;
+    top: 6px;
+    left: 0;
+}
+
+.frame .text-wrapper-24 {
+    width: 13px;
+    top: 223px;
+    left: 71px;
+    transform: rotate(-146.24deg);
+    position: absolute;
+    height: 37px;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame .text-wrapper-25 {
+    top: 211px;
+    left: 51px;
+    transform: rotate(-137.56deg);
+    position: absolute;
+    width: 21px;
+    height: 37px;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame .text-wrapper-26 {
+    top: 198px;
+    left: 44px;
+    transform: rotate(-129.59deg);
+    position: absolute;
+    width: 10px;
+    height: 37px;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame .text-wrapper-27 {
+    width: 24px;
+    top: 181px;
+    left: 25px;
+    transform: rotate(-120.95deg);
+    position: absolute;
+    height: 37px;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame .text-wrapper-28 {
+    top: 158px;
+    left: 15px;
+    transform: rotate(-109.45deg);
+    position: absolute;
+    width: 21px;
+    height: 37px;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame .text-wrapper-29 {
+    position: absolute;
+    width: 22px;
+    height: 37px;
+    top: 133px;
+    left: 9px;
+    transform: rotate(-98.3deg);
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame .text-wrapper-30 {
+    top: 108px;
+    left: 8px;
+    transform: rotate(-87.26deg);
+    position: absolute;
+    width: 21px;
+    height: 37px;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame .text-wrapper-31 {
+    width: 23px;
+    top: 82px;
+    left: 11px;
+    transform: rotate(-76.07deg);
+    position: absolute;
+    height: 37px;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame .text-wrapper-32 {
+    top: 58px;
+    left: 20px;
+    transform: rotate(-64.8deg);
+    position: absolute;
+    width: 21px;
+    height: 37px;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame .text-wrapper-33 {
+    position: absolute;
+    width: 21px;
+    height: 37px;
+    top: 37px;
+    left: 33px;
+    transform: rotate(-53.94deg);
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame .text-wrapper-34 {
+    position: absolute;
+    width: 22px;
+    height: 37px;
+    top: 18px;
+    left: 49px;
+    transform: rotate(-43.07deg);
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame .text-wrapper-35 {
+    top: 3px;
+    left: 69px;
+    transform: rotate(-32.22deg);
+    position: absolute;
+    width: 21px;
+    height: 37px;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame .text-wrapper-36 {
+    position: absolute;
+    width: 9px;
+    height: 37px;
+    top: 0;
+    left: 91px;
+    transform: rotate(-24.58deg);
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame .text-wrapper-37 {
+    position: absolute;
+    width: 13px;
+    height: 37px;
+    top: 1px;
+    left: 101px;
+    transform: rotate(-18.98deg);
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+@keyframes rotating {
+    0% {	rotate: 0; 	}
+    100% {	rotate: 1turn; 	}
+}
+
+@keyframes scratch {
+    0% {	rotate: 0;	}
+    10% {	rotate: -0.25turn;}
+    100% {	rotate: 1turn;	}
+}
+
+.frame {
+    animation: rotating 15s linear infinite;
+}

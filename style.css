@@ -1,0 +1,101 @@
+@font-face {
+    font-family: "Logotype";
+    src: local(Logotype-Regular);
+}
+@font-face {
+    font-family: "Edit Points Filled-Regular";
+    src: local("Edit Points Filled");
+}
+@font-face {
+    font-family: "The Centurion-Regular";
+    src: local(The Centurion);
+}
+@font-face {
+    font-family: "Typewriter";
+    src: local(Mom´sTypewriter);
+}
+#main{
+    text-align: center;
+}
+#Name{
+    position: relative; /* Ändere die Position auf relative */
+    margin: 0 auto; /* Zentriere das Element horizontal */
+    font-family: "Logotype";
+    font-size: 230px;
+    text-align: center;
+    letter-spacing: 50px;
+    line-height: 250px;
+    max-height: 190px;
+    margin-top: 30px;
+}
+
+.image{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    position: relative; /* Ändere die Position auf relative */
+    margin: 0 auto; /* Zentriere das Element horizontal */
+    margin-top: 400px;
+    display: grid;
+    grid-template: 1fr / 1fr;
+    place-items: center;
+}
+.image > *{
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+}
+.image .ellipse{
+    z-index: 2;
+    width: 230px;
+    height: 230px;
+    background-color:rgba(233, 212, 142, 0.63);
+    border-radius: 115px;
+    margin: 0 auto; /* Zentriere das Element horizontal */
+
+}
+.image .img{
+    z-index: 1;
+    width: 230px;
+    height: 230px;
+    margin: 0 auto; /* Zentriere das Element horizontal */
+    border-radius: 50%; /* Macht das Bild rund */
+    object-fit: cover;
+}
+.arr2-body{
+    z-index: 3;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto; /* Zentriere das Element horizontal */
+
+}
+.arr2{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-top: 12px solid #000000;
+    border-left: 12px solid #000000;
+    animation: arrow-load 2s infinite;
+}
+.arr2:nth-child(1){
+    animation-delay: 0.4s;
+}
+.arr2:nth-child(2){
+    animation-delay: -0.5s;
+}
+
+
+@keyframes arrow-load {
+    0%{
+        opacity: 0;
+        transform: rotate(-135deg) translateX(50px) translateY(50px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+          opacity: 0;
+          transform: rotate(-135deg) translateX(-50px) translateY(-50px);
+      }
+}
