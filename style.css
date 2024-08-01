@@ -12,7 +12,7 @@
 }
 @font-face {
     font-family: "Typewriter";
-    src: local(Mom´sTypewriter);
+    src: local('Mom´sTypewriter');
     src: url('Moms_typewriter-webfont.eot');
     src: url('Moms_typewriter-webfont.eot?#iefix') format('embedded-opentype'),
          url('Moms_typewriter-webfont.woff2') format('woff2'),
