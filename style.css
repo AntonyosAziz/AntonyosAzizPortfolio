@@ -53,7 +53,6 @@
     max-height: 190px;
     margin-top: 30px;
 }
-
 .hyrotextdown{
     margin-top: 50px;
     float: left;
@@ -90,7 +89,6 @@
     transition: transform 2s ease;
     transform: translateY(-100px); /* Beispiel: Ändere den Wert für die Animation */
 }
-
 
 .image{
     width: 300px;
