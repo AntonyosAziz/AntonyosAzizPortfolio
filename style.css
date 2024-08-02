@@ -1,15 +1,18 @@
 @font-face {
-    font-family: "Logotype";
-    src: local(Logotype-Regular);
-}
+        font-family: "Logotype";
+        src: local(Logotype-Regular);
+        src: url('LogoType.ttf') format('truetype')
+    }
 @font-face {
-    font-family: "Edit Points Filled-Regular";
-    src: local("Edit Points Filled");
-}
-@font-face {
-    font-family: "The Centurion-Regular";
-    src: local(The Centurion);
-}
+        font-family: "EditPointsFilled";
+        src: local(EditPointsFilled);
+        src: url('EditPointsFilled.ttf') format('truetype')
+    }
+ @font-face {
+        font-family: "TheCenturion";
+        src: local(The Centurion);
+        src:  url('The Centurion .ttf') format('truetype')
+    }
 @font-face {
     font-family: "Typewriter";
     src: local('Mom´sTypewriter');
