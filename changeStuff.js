@@ -1,3 +1,84 @@
+// Erstelle ein neues style-Element
+var style = document.createElement('style');
+
+// Definiere die @font-face-Regel für die benutzerdefinierte Schriftart
+var fontFace = `
+    @font-face {
+        font-family: "Logotype";
+        src: local(Logotype-Regular);
+             url('LogoType.ttf') format('truetype')
+    }
+`;
+
+// Füge die @font-face-Regel dem style-Element hinzu
+style.appendChild(document.createTextNode(fontFace));
+
+// Füge das style-Element dem head-Bereich des Dokuments hinzu
+document.head.appendChild(style);
+
+// Verwende die benutzerdefinierte Schriftart in deinem CSS
+document.body.style.fontFamily = 'Logotype, sans-serif';
+// Erstelle ein neues style-Element
+var style = document.createElement('style');
+
+// Definiere die @font-face-Regel für die benutzerdefinierte Schriftart
+var fontFace = `
+    @font-face {
+        font-family: "Edit Points Filled";
+        src: local(EditPointsFilled);
+             url('EditPointsFilled.ttf') format('truetype')
+    }
+`;
+
+// Füge die @font-face-Regel dem style-Element hinzu
+style.appendChild(document.createTextNode(fontFace));
+
+// Füge das style-Element dem head-Bereich des Dokuments hinzu
+document.head.appendChild(style);
+
+// Verwende die benutzerdefinierte Schriftart in deinem CSS
+document.body.style.fontFamily = 'Edit Points Filled, sans-serif';
+// Erstelle ein neues style-Element
+var style = document.createElement('style');
+
+// Definiere die @font-face-Regel für die benutzerdefinierte Schriftart
+var fontFace = `
+    @font-face {
+        font-family: "MomsTypewriter";
+        src: local(Moms_typewriter-webfont);
+             url('Moms_typewriter-webfont.ttf') format('truetype')
+    }
+`;
+
+// Füge die @font-face-Regel dem style-Element hinzu
+style.appendChild(document.createTextNode(fontFace));
+
+// Füge das style-Element dem head-Bereich des Dokuments hinzu
+document.head.appendChild(style);
+
+// Verwende die benutzerdefinierte Schriftart in deinem CSS
+document.body.style.fontFamily = 'MomsTypewriter, sans-serif';
+// Erstelle ein neues style-Element
+var style = document.createElement('style');
+
+// Definiere die @font-face-Regel für die benutzerdefinierte Schriftart
+var fontFace = `
+    @font-face {
+        font-family: "The Centurion";
+        src: local(The Centurion);
+             url('The Centurion .ttf') format('truetype')
+    }
+`;
+
+// Füge die @font-face-Regel dem style-Element hinzu
+style.appendChild(document.createTextNode(fontFace));
+
+// Füge das style-Element dem head-Bereich des Dokuments hinzu
+document.head.appendChild(style);
+
+// Verwende die benutzerdefinierte Schriftart in deinem CSS
+document.body.style.fontFamily = 'The Centurion, sans-serif';
+
 // Array mit ausgewählten Fonts
 const fonts = ['Edit Points Filled', 'The Centurion', 'Typewriter', 'Logotype'];
 const imagelist = ['adam.png', 'stepDom.png', 'pyr.png', 'chromeDino.png']; // Liste der Bildpfade
