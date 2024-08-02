@@ -25,6 +25,20 @@
     font-weight: normal;
     font-style: normal;
 }
+/* noto-sans-egyptian-hieroglyphs-regular - egyptian-hieroglyphs */
+@font-face {
+    font-family: 'Noto Sans Egyptian Hieroglyphs';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/noto-sans-egyptian-hieroglyphs-v24-egyptian-hieroglyphs-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+    url('fonts/noto-sans-egyptian-hieroglyphs-v24-egyptian-hieroglyphs-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('fonts/noto-sans-egyptian-hieroglyphs-v24-egyptian-hieroglyphs-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('fonts/noto-sans-egyptian-hieroglyphs-v24-egyptian-hieroglyphs-regular.woff') format('woff'), /* Modern Browsers */
+    url('fonts/noto-sans-egyptian-hieroglyphs-v24-egyptian-hieroglyphs-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('fonts/noto-sans-egyptian-hieroglyphs-v24-egyptian-hieroglyphs-regular.svg#NotoSansEgyptianHieroglyphs') format('svg'); /* Legacy iOS */
+}
+
 #main{
     text-align: center;
 }
@@ -39,6 +53,44 @@
     max-height: 190px;
     margin-top: 30px;
 }
+
+.hyrotextdown{
+    margin-top: 50px;
+    float: left;
+    font-weight: bolder;
+   color: #C3A588;
+    text-shadow: 0px 0px 10px #F2DCD8;
+    width: 20px;
+    font-family: "Noto Sans Egyptian Hieroglyphs";
+    font-size: 150px;
+    text-align: center;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    letter-spacing: -80px;
+    height: 1000px;
+    margin-left: 0;
+    transition: transform 2s ease;
+    transform: translateY(-100px); /* Beispiel: Ändere den Wert für die Animation */
+}
+.hyrotextdown2 {
+    margin-top: 50px;
+    float: left;
+    color: #C3A588;
+    text-shadow: 0px 0px 10px #F2DCD8;
+    width: 20px;
+    font-family: "Noto Sans Egyptian Hieroglyphs";
+    font-size: 150px;
+    font-weight: bolder;
+    text-align: center;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    letter-spacing: -80px;
+    height: 1000px;
+    margin-left: 0;
+    transition: transform 2s ease;
+    transform: translateY(-100px); /* Beispiel: Ändere den Wert für die Animation */
+}
+
 
 .image{
     width: 300px;
