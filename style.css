@@ -2,17 +2,17 @@
         font-family: "Logotype";
         src: local(Logotype-Regular);
         src: url('Logotype.ttf') format('truetype')
-    }
+}
 @font-face {
         font-family: "EditPointsFilled";
         src: local(EditPointsFilled);
         src: url('EditPointsFilled.ttf') format('truetype')
-    }
+}
  @font-face {
         font-family: "TheCenturion";
         src: local(The Centurion);
         src:  url('The Centurion .ttf') format('truetype')
-    }
+}
 @font-face {
     font-family: "Typewriter";
     src: local('Mom´sTypewriter');
