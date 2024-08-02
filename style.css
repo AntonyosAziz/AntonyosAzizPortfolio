@@ -1,6 +1,6 @@
 @font-face {
         font-family: "Logotype";
-        src: local(Logotype-Regular);
+        src: local(Logotype);
         src: url('Logotype.ttf') format('truetype')
 }
 @font-face {
