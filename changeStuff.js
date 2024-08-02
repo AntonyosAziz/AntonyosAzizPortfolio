@@ -98,3 +98,24 @@ var image = document.getElementById('sneakpeak');
 
         }
     }, 1000);} // Change font every 10 seconds (10000 milliseconds)
+
+let isBlack = false;
+
+function changeBackgroundColorOnScroll() {
+    const hyroDiv = document.getElementById('oldEgy');
+    const textOben = hyroDiv.querySelector('.hyrotextup');
+    const textUnten = hyroDiv.querySelector('.hyrotextdown');
+
+    window.addEventListener('scroll', function() {
+        if (!isBlack && isElementInViewport(hyroDiv)) {
+            gradualBackgroundColorChange();
+            isBlack = true;
+            setTimeout(() => {
+                moveTextFromTopToBottom();
+                setTimeout(()=>{
+                    moveTextFromTopToBottom2();
+                },2000);
+            }, 2000);
+        }
+    });
+}
