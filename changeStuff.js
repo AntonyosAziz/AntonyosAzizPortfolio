@@ -24,7 +24,7 @@ var style = document.createElement('style');
 // Definiere die @font-face-Regel für die benutzerdefinierte Schriftart
 var fontFace = `
     @font-face {
-        font-family: "Edit Points Filled";
+        font-family: "EditPointsFilled";
         src: local(EditPointsFilled);
              url('EditPointsFilled.ttf') format('truetype')
     }
@@ -37,7 +37,7 @@ style.appendChild(document.createTextNode(fontFace));
 document.head.appendChild(style);
 
 // Verwende die benutzerdefinierte Schriftart in deinem CSS
-document.body.style.fontFamily = 'Edit Points Filled, sans-serif';
+document.body.style.fontFamily = 'EditPointsFilled, sans-serif';
 // Erstelle ein neues style-Element
 var style = document.createElement('style');
 
@@ -64,7 +64,7 @@ var style = document.createElement('style');
 // Definiere die @font-face-Regel für die benutzerdefinierte Schriftart
 var fontFace = `
     @font-face {
-        font-family: "The Centurion";
+        font-family: "TheCenturion";
         src: local(The Centurion);
              url('The Centurion .ttf') format('truetype')
     }
@@ -77,10 +77,10 @@ style.appendChild(document.createTextNode(fontFace));
 document.head.appendChild(style);
 
 // Verwende die benutzerdefinierte Schriftart in deinem CSS
-document.body.style.fontFamily = 'The Centurion, sans-serif';
+document.body.style.fontFamily = 'TheCenturion, sans-serif';
 
 // Array mit ausgewählten Fonts
-const fonts = ['Edit Points Filled', 'The Centurion', 'Typewriter', 'Logotype'];
+const fonts = ['EditPointsFilled', 'TheCenturion', 'Typewriter', 'Logotype'];
 const imagelist = ['adam.png', 'stepDom.png', 'pyr.png', 'chromeDino.png']; // Liste der Bildpfade
 // Funktion, um den Font zufällig zu ändern
 // Funktion, um jeden Buchstaben in einem <p> Element unterschiedlich zu ändern
