@@ -27,7 +27,12 @@ document.addEventListener("DOMContentLoaded", function() {
         window.addEventListener('scroll', function() {
             if (!hasScrolled) {
                 hasScrolled = true;
-                audio.play();
+                audio.play().catch(function(error) {
+                    // Wenn die Wiedergabe fehlschlägt, versuchen Sie es erneut nach Benutzerinteraktion
+                    window.addEventListener('click', function() {
+                        audio.play();
+                    }, { once: true });
+                });
             }
         });
     }
