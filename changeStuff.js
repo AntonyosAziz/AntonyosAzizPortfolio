@@ -1,15 +1,3 @@
-@font-face {
-    font-family: "Typewriter";
-    src: local('Mom´sTypewriter');
-    src: url('Moms_typewriter-webfont.eot');
-    src: url('Moms_typewriter-webfont.eot?#iefix') format('embedded-opentype'),
-         url('Moms_typewriter-webfont.woff2') format('woff2'),
-         url('Moms_typewriter-webfont.woff') format('woff'),
-         url('Moms_typewriter-webfont.ttf') format('truetype'),
-         url('Moms_typewriter-webfont.svg#momstypewriterregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
 // Array mit ausgewählten Fonts
 const fonts = ['Edit Points Filled', 'The Centurion', 'Typewriter', 'Logotype'];
 const imagelist = ['adam.png', 'stepDom.png', 'pyr.png', 'chromeDino.png']; // Liste der Bildpfade
