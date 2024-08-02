@@ -5,7 +5,7 @@ var style = document.createElement('style');
 var fontFace = `
     @font-face {
         font-family: "Logotype";
-        src: local(Logotype-Regular);
+        src: local(Logotype);
         src: url('Logotype.ttf') format('truetype')
     }
 `;
