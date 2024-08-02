@@ -119,3 +119,56 @@ function changeBackgroundColorOnScroll() {
         }
     });
 }
+function gradualBackgroundColorChange() {
+    let currentColor = [233,212,142]; // Anfangsfarbe (Weiß)
+    let targetColor = [0, 0, 0]; // Ziel-Farbe (Schwarz)
+    let steps = 100; // Anzahl der Schritte für die Farbänderung
+
+    let step = [
+        (targetColor[0] - currentColor[0]) / steps,
+        (targetColor[1] - currentColor[1]) / steps,
+        (targetColor[2] - currentColor[2]) / steps
+    ];
+
+    let i = 0;
+    let timer = setInterval(() => {
+        currentColor[0] += step[0];
+        currentColor[1] += step[1];
+        currentColor[2] += step[2];
+
+        document.body.style.backgroundColor = `rgb(${Math.round(currentColor[0])}, ${Math.round(currentColor[1])}, ${Math.round(currentColor[2])})`;
+
+        i++;
+        if (i >= steps) {
+            clearInterval(timer);
+        }
+    }, 20); // Zeitintervall für jeden Schritt (hier: 20 Millisekunden)
+}
+
+function moveTextFromTopToBottom() {
+    const textUnten = document.querySelectorAll('.hyrotextdown');
+
+    textUnten.forEach(text => {
+        text.style.transition = 'transform 2s ease'; // Übergangszeit für die Animation
+        text.style.transform = `translateY(100px)`; // Bewegt den Text nach unten (100px), ändere den Wert nach Bedarf
+    });
+}
+function moveTextFromTopToBottom2() {
+    const textUnten = document.querySelectorAll('.hyrotextdown2');
+
+    textUnten.forEach(text => {
+        text.style.transition = 'transform 2s ease'; // Übergangszeit für die Animation
+        text.style.transform = `translateY(100px)`; // Bewegt den Text nach unten (100px), ändere den Wert nach Bedarf
+    });
+}
+
+function isElementInViewport(el) {
+    let rect = el.getBoundingClientRect();
+    return (
+        rect.top >= 0 &&
+        rect.left >= 0 &&
+        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+}
+
