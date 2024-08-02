@@ -6,7 +6,7 @@ var fontFace = `
     @font-face {
         font-family: "Logotype";
         src: local(Logotype-Regular);
-        src: url('LogoType.ttf') format('truetype')
+        src: url('Logotype.ttf') format('truetype')
     }
 `;
 
