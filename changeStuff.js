@@ -6,7 +6,7 @@ var fontFace = `
     @font-face {
         font-family: "Logotype";
         src: local(Logotype-Regular);
-             url('LogoType.ttf') format('truetype')
+        src: url('LogoType.ttf') format('truetype')
     }
 `;
 
@@ -26,7 +26,7 @@ var fontFace = `
     @font-face {
         font-family: "EditPointsFilled";
         src: local(EditPointsFilled);
-             url('EditPointsFilled.ttf') format('truetype')
+        src: url('EditPointsFilled.ttf') format('truetype')
     }
 `;
 
@@ -46,7 +46,7 @@ var fontFace = `
     @font-face {
         font-family: "MomsTypewriter";
         src: local(Moms_typewriter-webfont);
-             url('Moms_typewriter-webfont.ttf') format('truetype')
+        src: url('Moms_typewriter-webfont.ttf') format('truetype')
     }
 `;
 
@@ -66,7 +66,7 @@ var fontFace = `
     @font-face {
         font-family: "TheCenturion";
         src: local(The Centurion);
-             url('The Centurion .ttf') format('truetype')
+        src:  url('The Centurion .ttf') format('truetype')
     }
 `;
 
